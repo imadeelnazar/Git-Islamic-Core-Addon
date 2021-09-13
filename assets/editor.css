@@ -1,0 +1,4 @@
+.elementor-panel .elementor-tab-control-new-tab a:before {
+    font-family: FontAwesome;
+    content: '\f430';
+}

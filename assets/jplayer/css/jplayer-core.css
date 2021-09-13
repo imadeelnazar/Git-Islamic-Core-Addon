@@ -1,0 +1,186 @@
+.kode-custom-player{
+	position:relative;
+	z-index:99999;
+}
+/*new styling*/
+.kode-custom-player .jp-playlist ul,
+.kode-custom-player .jp-seek-bar, 
+.jp-interface,
+ 
+.kode-custom-player #jplayer_jukebox .jp-viewstate-control button, 
+.kode-custom-player #jplayer_jukebox .jp-seek-bar, .jp-interface
+{
+	background: #d9d9d9 !important;
+}
+.kode-custom-player #jplayer_jukebox-1 .jp-playlist ul{
+	background: #4c5955 !important;
+	padding: 0;
+}
+.kode-custom-player .jp-playlist{
+	width: 80%;
+	margin: 0 auto;
+	float: none;
+	padding: 0;
+	background: transparent;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.kode-custom-player #jplayer_jukebox-1 .jp-playlist ul .jp-playlist-current{
+	background: #d9d9d9 !important;
+}
+.kode-custom-player #jplayer_jukebox-1 .jp-playlist ul .jp-playlist-current a{
+	color: #4c5955 !important;
+}
+.kode-custom-player .jp-interface{
+	padding: 10px 0;
+}
+.kode-custom-player .jp_column-mid{
+	width: 70%;
+}
+.kode-custom-player .jp_column-left{
+	width: 15%;
+	margin-top: 0;
+}
+.kode-custom-player .jp-interface .jp-controls{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.kode-custom-player .jp-toggles button,
+.kode-custom-player .jp-toggles button.jp-show-playlist,
+.kode-custom-player .jp-controls button{
+	width: 45px;
+	height: 45px;
+	border: 4px solid #36403d;
+	border-radius: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 0;
+	margin-right: 4px;
+	position: relative;
+	margin-top: 7px;
+	float: none;
+	display: inline-block;
+}
+.kode-custom-player .jp-toggles button.jp-show-playlist{
+	border-color: #f6f6f6;
+	background: #f6f6f6;
+}
+.kode-custom-player .jp-volume-controls{
+	height: auto;
+}
+.kode-custom-player .jp-volume-controls button{
+	height: 42px;
+	width: 42px;
+	text-align: center;
+	position: relative;
+}
+.kode-custom-player .jp-toggles button,
+.kode-custom-player .jp-toggles button.jp-show-playlist{
+	margin-top: 0 !important;
+}
+.kode-custom-player .jp-controls button.jp-play{
+	width: 50px;
+	height: 50px;
+	margin-top: 0;
+	background: #36403d;
+}
+.kode-custom-player .jp-controls button.jp-play:before{
+	color: #fff;
+}
+.kode-custom-player .jp-controls button:last-child{
+	margin:2.5px 0 0 0;
+}
+.kode-custom-player .jp-toggles button.jp-show-playlist::before,
+.kode-custom-player .jp-controls button::before {
+    border-radius: 100%;
+    bottom: 0;
+    color: #36403d;
+    font-size: 20px;
+    left: 0;
+    line-height: 37px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.kode-custom-player .jp-controls button.jp-play:before{
+	line-height: 42px;
+}
+.kode-custom-player #jplayer_jukebox .jp-seek-bar, .jp-interface{
+	background: #f9f9f9 !important;
+}
+.kode-custom-player .jp-controls-holder .jp-repeat{
+	border: none;
+}
+.kode-custom-player .jp-progress{
+	height: 8px;
+	margin: 0;
+}
+.kode-custom-player .jp_column-right{
+	margin: 0;
+	width: 15%;
+	font-size: 0;
+	padding: 3px 0;
+	text-align: center;
+}
+.kode-custom-player .jp_column-right > div{
+	float: none;
+	display: inline-block;
+	width: auto;
+}
+.kode-custom-player .jp-jukebox .jp-toggles button,.kode-custom-player .jp-jukebox .jp-volume-controls button{
+	color: #36403d;
+}
+.kode-custom-player .jp-controls-holder{
+	height: auto;
+}
+.kode-custom-player .jp_container-bar-s{
+	padding: 22px 0;
+	float: left;
+	width: 100%;
+}
+.kode-custom-player .jp-current-time, 
+.kode-custom-player .jp-duration{
+	top: auto;
+	bottom: 5px;
+	margin:0 -15px;
+	color: #36403d !important; 
+}
+.kode-custom-player .jp-jukebox .jp-toggles button:hover::before,
+.kode-custom-player .jp-state-looped .jp-repeat::before,
+.kode-custom-player .jp-state-muted button.jp-mute,
+.kode-custom-player .jp-state-muted button.jp-mute:before{
+	color: #36403d !important;
+}
+.kode-custom-player .jp-state-looped .jp-repeat:focus::before{
+	color: #666;
+}
+/*Static position player Style*/
+.kode-custom-player .opt-pos-static .jp_column-right,
+.kode-custom-player .opt-pos-static .jp_column-left{
+	width: 20%;
+}
+.kode-custom-player .opt-pos-static .jp_column-mid {
+    width: 60%;
+}
+/*new blog style*/
+.light .blog-listing.kode-blog-light .detail{
+	padding-left: 90px;
+}
+.light .blog-listing.kode-blog-light article{
+	padding: 10px;
+}
+.light .blog-listing.kode-blog-light .date span {
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.light .blog-listing.kode-blog-light .date p {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.light .blog-listing.kode-blog-light .date-inn{
+	border-color: #333 !important;
+}
