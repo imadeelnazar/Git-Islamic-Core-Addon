@@ -31,10 +31,16 @@ include_once(KODEFOREST_MAIN_PATH . '/framework/kf_pagebuilder_scripts.php');
 
 require 'update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://kodeforest.net/wp-dummy/islamic/github/Git-Islamic-Center-5.1.zip',
+	'https://github.com/imadeelnazar/Git-Islamic-Center/',
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'Git-Islamic-Center-5.1'
 );
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('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');
 
 /**
  * Main Elementor Main Element Class
