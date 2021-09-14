@@ -31,9 +31,9 @@ include_once(KODEFOREST_MAIN_PATH . '/framework/kf_pagebuilder_scripts.php');
 
 require 'update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'http://example.com/path/to/details.json',
+	'https://kodeforest.net/wp-dummy/islamic/github/Git-Islamic-Center-5.1.zip',
 	__FILE__, //Full path to the main plugin file or functions.php.
-	'unique-plugin-or-theme-slug'
+	'Git-Islamic-Center-5.1'
 );
 
 /**
